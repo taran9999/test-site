@@ -45,3 +45,7 @@ document.getElementById('button2').onclick = function() {
     }
     
 }
+
+document.getElementById('button3').onclick = function() {
+    window.open('guide.html');
+}
