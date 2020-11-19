@@ -1,5 +1,3 @@
-alert("You have reached the epic page.");
-
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
