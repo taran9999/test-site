@@ -1,6 +1,10 @@
 @font-face {
     font-family: "BruhFont";
-    src:url("/fonts/BruhFont.ttf");
+    src:url("fonts/BruhFont.ttf") format('embedded-opentype');
+    src:url("fonts/BruhFont.ttf") format('woff2');
+    src:url("fonts/BruhFont.ttf") format('woff');
+    src:url("fonts/BruhFont.ttf") format('truetype');
+    src:url("fonts/BruhFont.ttf") format('svg');
 }
 
 html {
